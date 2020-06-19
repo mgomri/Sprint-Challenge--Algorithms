@@ -17,4 +17,14 @@ c)O(n)(or O(bunnies)) the recursion will be repeated n times before base case is
 
 ## Exercise II
 
+Start at the ground level
+repeat untill we have a broken egg:
+    go up one level
+    increment floor_count
+    drop egg
+
+return floor_count - 1 (previous floor which is the last floor before the eggs started breaking)
+
+runtime complexity: O(1) it doesn't matter how much higher than f the building goes, f is still the same.
+
 

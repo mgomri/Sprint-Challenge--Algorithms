@@ -35,9 +35,3 @@ Suppose that you have an n-story building and plenty of eggs. Suppose also that 
 
 Write out your proposed algorithm in plain English or pseudocode AND give the runtime complexity of your solution.
 
-Start at the bottom
-repeat untill we have a broken egg:
-    go up one level
-    increment floor_count
-    drop egg
-return floor_count - 1 (previous floor which is the last floor before the eggs started breaking)
