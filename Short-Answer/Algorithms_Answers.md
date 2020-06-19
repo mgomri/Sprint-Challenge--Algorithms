@@ -2,10 +2,10 @@
 
 ## Exercise I
 
-a) O(n) The wile loop needs to be run n times adding n**2 each time (n * n**2 = n**3) to reach break.
+a) O(n)     The wile loop needs to be run n times adding n**2 each time (n * n**2 = n**3) to reach break.
 
 
-b)  O(nlog(n)) i (outer loop) will loop n times, each time j (inner loop's iterator) has to be multiplied 
+b)  O(nlog(n))      i (outer loop) will loop n times, each time j (inner loop's iterator) has to be multiplied 
 
     by 2**(log(n)) to reach n thus the inner loop has to be run log(base 2)(n) times to reach break, making 
 
@@ -13,7 +13,7 @@ b)  O(nlog(n)) i (outer loop) will loop n times, each time j (inner loop's itera
 
 
 
-c)O(n)(or O(bunnies)) the recursion will be repeated n times before base case is reached and the outer call is returned.
+c)O(n) or O(bunnies)       the recursion will be repeated n times before base case is reached and the outer call is returned.
 
 ## Exercise II
 
@@ -22,8 +22,8 @@ repeat untill we have a broken egg:
     go up one level
     increment floor_count
     drop egg
-
-return floor_count - 1 (previous floor which is the last floor before the eggs started breaking)
+    check if egg is broken
+    return floor_count - 1 (previous floor which is the last floor before the eggs started breaking)
 
 runtime complexity: O(1) it doesn't matter how much higher than f the building goes, f is still the same.
 
